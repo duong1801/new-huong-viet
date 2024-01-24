@@ -1,0 +1,19 @@
+.section__heading {
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+.only__heading {
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+.text-hover {
+  &:hover {
+    color: $primaryColor;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,242 @@
+#wishlist {
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 80px;
+
+    h2,
+    span,
+    th,
+    a {
+        text-transform: capitalize;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .wishlist__title {
+        overflow: hidden;
+        width: 100%;
+        h2 {
+            font-weight: 700;
+            color: #333;
+            margin: 0 0 10px;
+            font-size: 3.2rem;
+            margin-bottom: 40px;
+            margin-top: 80px;
+        }
+    }
+
+    .form--title {
+        h2 {
+            color: #252525;
+            font-size: 3rem;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+    }
+
+    table {
+        text-indent: initial;
+        border-spacing: 2px;
+        margin-bottom: 100px;
+        background: #fff none repeat scroll 0 0;
+        border-color: #e8e8e9;
+        border-radius: 0;
+        border-style: solid;
+        border-width: 1px 0 0 1px;
+        margin: 20px 0 50px;
+        width: 100%;
+
+        th {
+            font-weight: 600;
+            border-bottom: 1px solid #e5e5e5;
+            border-right: 1px solid #e5e5e5;
+            font-size: 1.4rem;
+            padding: 15px 10px;
+            text-align: center;
+            color: #777;
+        }
+
+        td {
+            border-bottom: 1px solid #e5e5e5;
+            border-right: 1px solid #e5e5e5;
+            font-size: 1.4rem;
+            padding: 15px 10px;
+            text-align: center;
+            color: #777;
+        }
+
+        thead {
+            .table__product--remove {
+                padding: 0 15px;
+                width: 20px;
+                border-top: 1px solid #e5e5e5;
+                border-left: 1px solid #e5e5e5;
+            }
+
+            .table__product--image {
+                width: 150px;
+                border-top: 1px solid #e5e5e5;
+            }
+
+            .table__product--name,
+            .table__product--price,
+            .table__product--status,
+            .table__product--add {
+                border-top: 1px solid #e5e5e5;
+            }
+        }
+
+        tbody {
+            .table__product--remove {
+                font-size: 2.5rem;
+                text-align: center;
+                border-left: 1px solid #e5e5e5;
+
+                a {
+                    color: #777777;
+                }
+            }
+
+            .table__product--image {
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                a {
+                    color: #777777;
+                }
+            }
+
+            .table__product--name {
+                a {
+                    color: #777777;
+                }
+            }
+
+            .table__product--price {
+                span {
+                    color: #777777;
+                    font-weight: 700;
+                }
+            }
+
+            .table__product--status {
+                span {
+                    color: $primaryColor;
+                }
+            }
+
+            .table__product--add-card {
+                a {
+                    background: #000 none repeat scroll 0 0;
+                    color: #fff;
+                    display: block;
+                    font-weight: 700;
+                    padding: 10px 56px;
+                    text-transform: uppercase;
+                    width: 240px;
+                    margin: 0 auto;
+
+                    &:hover {
+                        background-color: $primaryColor;
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            .wishlist__share {
+                margin: 30px 0;
+
+                .wishlist__share--title {
+                    color: #252525;
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                    margin: 0 0 10px;
+                }
+            }
+
+            tr {
+                border-left: 1px solid #e5e5e5;
+                border-bottom: 1px solid #e5e5e5;
+                padding: 10px 15px;
+            }
+
+            ul {
+                list-style: outside none none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    display: inline-block;
+                    margin: 0 5px;
+
+                    a {
+                        color: #444;
+                        font-size: 20px;
+                        text-decoration: none;
+                        transition: all 0.3s ease 0s;
+
+                        &:hover {
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 477.98px) {
+    #wishlist {
+        .wishlist__form {
+            overflow-x: auto;
+        }
+
+        .row-wishlist,
+        .wishlist__title {
+            padding: 0 50px;
+            h2 {
+                font-size: 1.7rem !important;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 478px) and (max-width: 767.98px) {
+    #wishlist {
+        .wishlist__form {
+            overflow-x: scroll !important;
+        }
+    }
+}
+
+.address__wrap {
+    .address__item {
+        border: 1px solid #ccc;
+        padding: 1.4rem;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.6rem;
+        p,
+        a {
+            font-size: 1.5rem;
+        }
+        &--info {
+            flex: 2;
+        }
+        &--action {
+            flex: 1;
+            a {
+                font-size: 1.4rem;
+            }
+            button {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.content {
+  .map {
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    .address-map {
+      padding-bottom: 80px;
+    }
+    .contact-info {
+      .contact-link {
+        color: #444;
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+
+      .contact-li {
+        i {
+          font-size: 16px;
+          margin-right: 5px;
+          width: 20px;
+        }
+      }
+    }
+
+    .contact-icon {
+      padding-right: 8px;
+    }
+    .contact-massage {
+      background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+      border: 1px solid #eceff8;
+      font-size: 14px;
+      margin-bottom: 16px;
+      padding: 12px 10px;
+      width: 100%;
+      color: #626262;
+    }
+
+    .contact-submit {
+      background: #252525 none repeat scroll 0 0;
+      border: medium none;
+      border-radius: 0;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      height: 40px;
+      margin-top: 16px;
+      padding: 0 15px;
+      text-transform: uppercase;
+      transition: all 0.3s ease 0s;
+      width: 140px;
+      margin-bottom: 16px;
+    }
+  }
+}

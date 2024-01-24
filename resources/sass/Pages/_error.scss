@@ -1,0 +1,22 @@
+.error {
+  background-color: #fff;
+  &-container {
+    padding: 2rem 4rem;
+    h3 {
+      padding-bottom: 1rem;
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.6rem;
+      padding-bottom: 1rem;
+    }
+    a {
+      display: inline-block;
+      background-color: $primaryColor;
+      padding: 0.8rem 2rem;
+      font-size: 1.6rem;
+      color: #fff;
+      margin-top: 2rem;
+    }
+  }
+}

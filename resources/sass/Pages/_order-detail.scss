@@ -1,0 +1,33 @@
+.card {
+    .card-head {
+        h4 {
+            font-size: 2rem;
+            padding: 2rem;
+        }
+        a {
+            font-size: 1.5rem;
+            padding: 0.8rem 4rem;
+        }
+    }
+    .card-body {
+        table {
+            th,
+            td {
+                font-size: 1.5rem;
+                padding: 1rem;
+                a {
+                    display: inline-block;
+                    padding: 1rem 4rem;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        label {
+            font-size: 1.6rem;
+            margin-bottom: 2rem;
+        }
+        .border {
+            font-size: 1.4rem;
+        }
+    }
+}

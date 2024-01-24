@@ -1,0 +1,49 @@
+.contact-h3 {
+  border-bottom: 2px solid #e8e8e9;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 0 10px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.contact-li {
+  border-bottom: 1px solid #e8e8e9;
+  float: left;
+  font-size: 13px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.contact-text {
+  font-weight: 700;
+}
+
+.contact-in {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #eceff8;
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding: 12px 10px;
+  width: 100%;
+  color: #626262;
+}
+
+.product__price {
+  font-size: 1.6rem;
+  color: $textColor;
+  opacity: 1;
+  transition: 0.3s;
+  span.price {
+    color: #e24e57;
+    font-weight: 500px;
+  }
+  span.price__old {
+    text-decoration: line-through;
+  }
+}

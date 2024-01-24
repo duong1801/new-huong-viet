@@ -1,0 +1,16 @@
+.name-tag-area {
+  padding-left: 20px;
+  padding-right: 20px;
+  .name-tag {
+    & > h2 {
+      color: #252525;
+      font-size: 3.5rem;
+      padding-bottom: 10px;
+    }
+    & > p {
+      color: #252525;
+      font-size: 2rem;
+      padding-bottom: 20px;
+    }
+  }
+}
